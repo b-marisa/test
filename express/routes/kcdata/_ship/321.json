@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 321
+  sort_no: 1414
+  name: 大淀改
+  yomi: おおよど
+  stype: 3
+  ctype: 
+  cnum: 
+  backs: 7
+  after_lv: 
+  after_ship_id: 
+  get_mes: <br>
+  voice_f: 3
+  filename: gixbrtnuabge
+  file_version: ["30", "15", "117"]
+  book_table_id: 
+  book_sinfo: 
+  stats:
+    taik: [47, 64]
+    souk: [32, 68]
+    houg: [32, 70]
+    raig: [0, 49]
+    tyku: [22, 74]
+    luck: [30, 79]
+    soku: 10
+    leng: 2
+    kaih: 
+    tais: 
+    slot_num: 4
+    max_eq: [0, 6, 6, 0, 0]
+    after_fuel: 
+    after_bull: 
+    fuel_max: 35
+    bull_max: 35
+    broken: [4, 3, 14, 3]
+    pow_up: [2, 0, 2, 2]
+    build_time: 80
+  graph:
+    boko_n: [-16, 96]
+    boko_d: [-32, 152]
+    kaisyu_n: [32, 4]
+    kaisyu_d: [40, 8]
+    kaizo_n: [-16, 40]
+    kaizo_d: [-64, 80]
+    map_n: [-24, 72]
+    map_d: [-48, 128]
+    ensyuf_n: [24, 64]
+    ensyuf_d: [-16, 128]
+    ensyue_n: [-16, 0]
+    battle_n: [24, 64]
+    battle_d: [-24, 128]
+    wed_a: [200, 40]
+    wed_b: [128, 104]
+  wiki_id: "183a"
+  chinese_name: 大淀改
+  can_drop: false
+  can_construct: false
+---

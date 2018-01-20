@@ -1,0 +1,15 @@
+---
+layout: json
+data:
+  id: 172
+  type: 5
+  no: 8
+  title: インテリア椅子
+  description: 木彫で暖かみのある高いデ<br>ザイン性と機能美を持った<br>椅子。女の子達にも人気の<br>逸品です。
+  rarity: 2
+  price: 200
+  saleflg: 0
+  season: 0
+  filename: 
+  file_version: 
+---

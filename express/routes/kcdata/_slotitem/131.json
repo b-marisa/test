@@ -1,0 +1,82 @@
+---
+layout: json
+order: 131
+data:
+  id: 131
+  sort_no: 131
+  name: 25mm三連装機銃 集中配備
+  type: [4, 6, 21, 15, 0]
+  rare: 3
+  broken: [0, 5, 2, 1]
+  info: 増大する敵航空兵力の脅威に対抗するため、25mm高角機銃の三連装型を集中的に複数配備した、ハリネズミのような対空機銃兵装です。命中精度にも難があり、すぐに砲身が過熱してしまう25mm機銃ですが、集中運用することで個艦防空能力を高めます。
+  usebull: 0
+  cost: 9
+  distance: 4
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 9
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 1
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [0, 90, 90, 150]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [3, 5]
+            -
+              id: 4
+              amount: [3, 5]
+          -
+            -
+              id: 3
+              amount: [6, 9]
+            -
+              id: 4
+              amount: [6, 9]
+        slotitem:
+          -
+            id: 40
+            amount: 3
+          -
+            id: 40
+            amount: 5
+      upgrade:
+      day:
+        -
+          -
+            ship_id: 487
+        - false
+        -
+          -
+            ship_id: 428
+        -
+          -
+            ship_id: 428
+        -
+          -
+            ship_id: 428
+        -
+          -
+            ship_id: 487
+        -
+          -
+            ship_id: 487
+  chinese_name: 25mm三连装机铳 集中配备
+---

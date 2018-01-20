@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 812
+  sort_no: 0
+  name: 桃節句潮改二
+  yomi: うしお
+  stype: 2
+  ctype: 
+  cnum: 
+  backs: 
+  after_lv: 
+  after_ship_id: 
+  get_mes: 
+  voice_f: 
+  filename: tjhqapzvykpb
+  file_version: ["1", "1", "1"]
+  book_table_id: 
+  book_sinfo: 
+  stats:
+    taik: 
+    souk: 
+    houg: 
+    raig: 
+    tyku: 
+    luck: 
+    soku: 10
+    leng: 
+    kaih: 
+    tais: 
+    slot_num: 3
+    max_eq: 
+    after_fuel: 
+    after_bull: 
+    fuel_max: 
+    bull_max: 
+    broken: 
+    pow_up: 
+    build_time: 
+  graph:
+    boko_n: [224, 112]
+    boko_d: [196, 92]
+    kaisyu_n: [8, 8]
+    kaisyu_d: [20, -24]
+    kaizo_n: [168, 68]
+    kaizo_d: [140, 4]
+    map_n: [172, 100]
+    map_d: [164, 84]
+    ensyuf_n: [164, 96]
+    ensyuf_d: [164, 80]
+    ensyue_n: [160, 0]
+    battle_n: [192, 112]
+    battle_d: [164, 92]
+    wed_a: [44, 28]
+    wed_b: [108, 124]
+  wiki_id: 
+  chinese_name: 
+  can_drop: false
+  can_construct: false
+---

@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 811
+  sort_no: 0
+  name: 桃節句潮
+  yomi: うしお
+  stype: 2
+  ctype: 
+  cnum: 
+  backs: 
+  after_lv: 
+  after_ship_id: 
+  get_mes: 
+  voice_f: 
+  filename: kxmwbqtugllx
+  file_version: ["1", "1", "1"]
+  book_table_id: 
+  book_sinfo: 
+  stats:
+    taik: 
+    souk: 
+    houg: 
+    raig: 
+    tyku: 
+    luck: 
+    soku: 10
+    leng: 
+    kaih: 
+    tais: 
+    slot_num: 2
+    max_eq: 
+    after_fuel: 
+    after_bull: 
+    fuel_max: 
+    bull_max: 
+    broken: 
+    pow_up: 
+    build_time: 
+  graph:
+    boko_n: [216, 136]
+    boko_d: [184, 132]
+    kaisyu_n: [21, 9]
+    kaisyu_d: [28, 7]
+    kaizo_n: [152, 84]
+    kaizo_d: [124, 40]
+    map_n: [168, 124]
+    map_d: [156, 120]
+    ensyuf_n: [160, 124]
+    ensyuf_d: [156, 116]
+    ensyue_n: [152, 0]
+    battle_n: [176, 132]
+    battle_d: [164, 132]
+    wed_a: [52, 4]
+    wed_b: [112, 120]
+  wiki_id: 
+  chinese_name: 
+  can_drop: false
+  can_construct: false
+---

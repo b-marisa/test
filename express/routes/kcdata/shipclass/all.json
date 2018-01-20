@@ -1,0 +1,6 @@
+---
+---
+{% assign arr = site.shipclass | sort: "order" %}[
+  {% for shipclass in arr %}{{ shipclass.data | jsonify }}{% unless forloop.last %},
+  {% endunless %}{% endfor %}
+]

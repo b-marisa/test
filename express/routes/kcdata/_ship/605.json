@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 605
+  sort_no: 1505
+  name: Luigi Torelli改
+  yomi: ルイージ・トレッリ
+  stype: 13
+  ctype: 
+  cnum: 
+  backs: 5
+  after_lv: 40
+  after_ship_id: 539
+  get_mes: <br>
+  voice_f: 3
+  filename: drbcfdxjgwgx
+  file_version: ["51", "1", "118"]
+  book_table_id: 
+  book_sinfo: 
+  stats:
+    taik: [13, 23]
+    souk: [5, 18]
+    houg: [0, 8]
+    raig: [0, 32]
+    tyku: [0, 22]
+    luck: [30, 72]
+    soku: 5
+    leng: 1
+    kaih: 
+    tais: 
+    slot_num: 2
+    max_eq: [0, 0, 0, 0, 0]
+    after_fuel: 160
+    after_bull: 300
+    fuel_max: 10
+    bull_max: 15
+    broken: [1, 2, 2, 1]
+    pow_up: [0, 2, 0, 0]
+    build_time: 22
+  graph:
+    boko_n: [156, 164]
+    boko_d: [64, 214]
+    kaisyu_n: [32, -11]
+    kaisyu_d: [0, 12]
+    kaizo_n: [116, 80]
+    kaizo_d: [16, 92]
+    map_n: [124, 128]
+    map_d: [40, 164]
+    ensyuf_n: [112, 128]
+    ensyuf_d: [-24, 136]
+    ensyue_n: [112, 0]
+    battle_n: [148, 132]
+    battle_d: [32, 180]
+    wed_a: [96, -4]
+    wed_b: [100, 120]
+  wiki_id: "325a"
+  chinese_name: 路易吉·托雷利改
+  can_drop: false
+  can_construct: false
+---

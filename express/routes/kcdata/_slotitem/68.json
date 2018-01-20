@@ -1,0 +1,182 @@
+---
+layout: json
+order: 68
+data:
+  id: 68
+  sort_no: 68
+  name: 大発動艇
+  type: [8, 14, 24, 20, 0]
+  rare: 0
+  broken: [1, 1, 0, 1]
+  info: 大発動艇、略して「大発」。<br>輸送船からの揚陸作業や上陸戦に用いた、現代でいうところの「上陸用舟艇」です。海上のトラックのような「大発」は、大型輸送船や強襲揚陸艦などで運用可能です。
+  usebull: 0
+  cost: 6
+  distance: 4
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 0
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [50, 30, 30, 10]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [1, 2]
+            -
+              id: 4
+              amount: [1, 2]
+          -
+            -
+              id: 3
+              amount: [1, 4]
+            -
+              id: 4
+              amount: [2, 3]
+        slotitem:
+          -
+            id: 75
+            amount: 1
+          -
+            id: 37
+            amount: 1
+      upgrade:
+        id: 166
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [4, 8]
+            -
+              id: 4
+              amount: [3, 7]
+          slotitem:
+            id: 38
+            amount: 3
+      day:
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 418
+          -
+            ship_id: 200
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 418
+          -
+            ship_id: 200
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 418
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 418
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 200
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 200
+    -
+      consume:
+        resource: [50, 30, 30, 10]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [1, 2]
+            -
+              id: 4
+              amount: [1, 2]
+          -
+            -
+              id: 3
+              amount: [1, 4]
+            -
+              id: 4
+              amount: [2, 3]
+        slotitem:
+          -
+            id: 75
+            amount: 1
+          -
+            id: 37
+            amount: 1
+      upgrade:
+        id: 193
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [8, 16]
+            -
+              id: 4
+              amount: [6, 12]
+          slotitem:
+            id: 68
+            amount: 4
+      day:
+        -
+          -
+            ship_id: 487
+        - false
+        - false
+        - false
+        -
+          -
+            ship_id: 487
+        -
+          -
+            ship_id: 487
+        -
+          -
+            ship_id: 487
+  chinese_name: 大发动艇
+---

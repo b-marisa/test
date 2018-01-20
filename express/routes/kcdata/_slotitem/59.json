@@ -1,0 +1,94 @@
+---
+layout: json
+order: 59
+data:
+  id: 59
+  sort_no: 59
+  name: 零式水上観測機
+  type: [5, 7, 10, 10, 2]
+  rare: 1
+  broken: [1, 1, 0, 2]
+  info: 複葉でありながら、優れた運動性と高い空戦能力を持つ二座の水上偵察機です。主力艦隊の砲戦弾着観測と偵察のための機体ですが、その高い格闘戦闘力は、専門の水上戦闘機も顔負けの高性能ぶり。複葉機だけど近代的な、名作観測機なのです！
+  usebull: 0
+  cost: 6
+  distance: 3
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 1
+    tyku: 2
+    tais: 4
+    atap: 0
+    houm: 2
+    raim: 0
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 6
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [90, 40, 0, 270]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [4, 6]
+            -
+              id: 4
+              amount: [3, 5]
+          -
+            -
+              id: 3
+              amount: [6, 9]
+            -
+              id: 4
+              amount: [4, 7]
+        slotitem:
+          -
+            id: 26
+            amount: 1
+          -
+            id: 59
+            amount: 1
+      upgrade:
+      day:
+        - false
+        -
+          -
+            ship_id: 451
+          -
+            ship_id: 348
+        -
+          -
+            ship_id: 451
+          -
+            ship_id: 348
+        -
+          -
+            ship_id: 451
+          -
+            ship_id: 348
+        -
+          -
+            ship_id: 143
+          -
+            ship_id: 148
+        -
+          -
+            ship_id: 143
+          -
+            ship_id: 148
+        -
+          -
+            ship_id: 143
+          -
+            ship_id: 148
+  chinese_name: 零式水上观测机
+---

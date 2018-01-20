@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 512
+  sort_no: 312
+  name: Октябрьская революция
+  yomi: ガングート
+  stype: 8
+  ctype: 73
+  cnum: 1
+  backs: 6
+  after_lv: 75
+  after_ship_id: 513
+  get_mes: <br>
+  voice_f: 3
+  filename: famtkxknboyg
+  file_version: ["51", "1", "118"]
+  book_table_id: [512]
+  book_sinfo: 三連装主砲を持つロシアの弩級戦艦Гангут級、その一番艦だ。革命後は名前を変えたが、近代化改装後、再びГангутの名に戻ったさ。冬戦争、そしてあの大きな戦いにも参加した。地上戦支援で勝利に大きく貢献した私は勲章ももらったな。この戦い、私も貢献しよう。私に任せておけ！
+  stats:
+    taik: [72, 87]
+    souk: [68, 90]
+    houg: [65, 89]
+    raig: [0, 0]
+    tyku: [36, 65]
+    luck: [30, 79]
+    soku: 5
+    leng: 3
+    kaih: 30
+    tais: 0
+    slot_num: 4
+    max_eq: [1, 1, 1, 1, 0]
+    after_fuel: 4200
+    after_bull: 1600
+    fuel_max: 80
+    bull_max: 105
+    broken: [9, 13, 32, 3]
+    pow_up: [3, 0, 1, 3]
+    build_time: 240
+  graph:
+    boko_n: [-60, 100]
+    boko_d: [-96, 116]
+    kaisyu_n: [2, -28]
+    kaisyu_d: [16, -18]
+    kaizo_n: [-120, 16]
+    kaizo_d: [-176, 20]
+    map_n: [-76, 76]
+    map_d: [-172, 68]
+    ensyuf_n: [-100, 76]
+    ensyuf_d: [-176, 68]
+    ensyue_n: [-104, 0]
+    battle_n: [-76, 92]
+    battle_d: [-168, 92]
+    wed_a: [316, 40]
+    wed_b: [108, 124]
+  wiki_id: "312"
+  chinese_name: 十月革命
+  can_drop: false
+  can_construct: false
+---

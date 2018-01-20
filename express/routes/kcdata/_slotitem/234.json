@@ -1,0 +1,91 @@
+---
+layout: json
+order: 234
+data:
+  id: 234
+  sort_no: 234
+  name: 15.5cm三連装副砲改
+  type: [1, 2, 4, 4, 0]
+  rare: 3
+  broken: [0, 3, 6, 1]
+  info: 巡洋艦主砲だったものを大型戦艦の副砲として転用しました。「大和」型戦艦に搭載され、対空戦も可能な、性能・運用性ともに優秀な戦艦副砲となりました。防御面においては、諸説ありますが「大和」型の唯一の弱点という指摘もありました。本副砲は、同砲を「大和」型副砲として運用、改修と最適化を施した改良型装備です。
+  usebull: 0
+  cost: 
+  distance: 
+  stats:
+    taik: 0
+    souk: 0
+    houg: 7
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 5
+    tais: 0
+    atap: 0
+    houm: 4
+    raim: 0
+    houk: 1
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 2
+  improvement: 
+    -
+      consume:
+        resource: [15, 120, 150, 30]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [6, 7]
+            -
+              id: 4
+              amount: [4, 5]
+          -
+            -
+              id: 3
+              amount: [8, 9]
+            -
+              id: 4
+              amount: [5, 7]
+        slotitem:
+          -
+            id: 12
+            amount: 2
+          -
+            id: 5
+            amount: 2
+      upgrade:
+        id: 235
+        level: 7
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [9, 10]
+            -
+              id: 4
+              amount: [2, 3]
+          slotitem:
+            id: 5
+            amount: 1
+      day:
+        -
+          -
+            ship_id: 148
+        -
+          -
+            ship_id: 148
+        - false
+        - false
+        - false
+        -
+          -
+            ship_id: 136
+        -
+          -
+            ship_id: 136
+  chinese_name: 15.5cm三连装副炮改
+---

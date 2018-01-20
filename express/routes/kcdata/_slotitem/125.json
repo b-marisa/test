@@ -1,0 +1,87 @@
+---
+layout: json
+order: 125
+data:
+  id: 125
+  sort_no: 125
+  name: 61cm三連装(酸素)魚雷
+  type: [2, 3, 5, 5, 0]
+  rare: 2
+  broken: [2, 2, 1, 0]
+  info: 陳腐化した53cm魚雷の後継として開発された大型の61cm魚雷。<br>その三連装発射管は、駆逐艦の主力兵装として特型駆逐艦「吹雪」型などに搭載されました。その改良型である本兵装は、装填魚雷を「九三式酸素魚雷」に換装しています。
+  usebull: 0
+  cost: 9
+  distance: 4
+  stats:
+    taik: 0
+    souk: 1
+    houg: 0
+    raig: 8
+    soku: 0
+    baku: 0
+    tyku: 0
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 1
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 1
+  improvement: 
+    -
+      consume:
+        resource: [60, 90, 60, 20]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [1, 2]
+            -
+              id: 4
+              amount: [1, 1]
+          -
+            -
+              id: 3
+              amount: [3, 5]
+            -
+              id: 4
+              amount: [1, 3]
+        slotitem:
+          - 
+          -
+            id: 13
+            amount: 1
+      upgrade:
+        id: 15
+        level: 5
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [4, 8]
+            -
+              id: 4
+              amount: [3, 6]
+          slotitem:
+            id: 14
+            amount: 2
+      day:
+        - false
+        - false
+        - false
+        - false
+        -
+          -
+            ship_id: 426
+        -
+          -
+            ship_id: 426
+        -
+          -
+            ship_id: 426
+  chinese_name: 61cm三连装(酸素)鱼雷
+---

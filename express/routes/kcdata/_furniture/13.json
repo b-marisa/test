@@ -1,0 +1,15 @@
+---
+layout: json
+data:
+  id: 13
+  type: 0
+  no: 12
+  title: 冬の丸絨毯
+  description: 丸い形の暖かい絨毯です。<br>冬の季節にぴったりの和み<br>絨毯は駆逐艦娘たちにも好<br>評です。高品質かつお求め<br>やすいお値段もポイント。
+  rarity: 3
+  price: 1800
+  saleflg: 1
+  season: 0
+  filename: 
+  file_version: 
+---

@@ -1,0 +1,15 @@
+---
+layout: json
+data:
+  id: 90
+  type: 2
+  no: 18
+  title: 障子デラックス
+  description: 究極にして最高の窓、それ<br>が障子。和のココロが結晶<br>したデザイン。<br>提督の熱いご要望でデラッ<br>クス化！
+  rarity: 5
+  price: 3000
+  saleflg: 0
+  season: 0
+  filename: 
+  file_version: 
+---

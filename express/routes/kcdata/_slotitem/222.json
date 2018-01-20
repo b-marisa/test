@@ -1,0 +1,122 @@
+---
+layout: json
+order: 222
+data:
+  id: 222
+  sort_no: 222
+  name: 一式戦 隼III型甲
+  type: [22, 39, 48, 44, 27]
+  rare: 3
+  broken: [1, 1, 0, 4]
+  info: 最も量産された陸軍主力戦闘機、一式戦「隼」、<br>その最終量産型です。<br>機体の基本設計自体は旧式となりつつありましたが、エンジン等を強化した本機は各戦線で戦いの最終局面まで奮闘を続けました。
+  usebull: 0
+  cost: 4
+  distance: 6
+  stats:
+    taik: 0
+    souk: 0
+    houg: 1
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 7
+    tais: 0
+    atap: 0
+    houm: 1
+    raim: 0
+    houk: 3
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [130, 200, 20, 330]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [5, 6]
+            -
+              id: 4
+              amount: [4, 5]
+          -
+            -
+              id: 3
+              amount: [6, 9]
+            -
+              id: 4
+              amount: [6, 7]
+        slotitem:
+          -
+            id: 21
+            amount: 3
+          -
+            id: 22
+            amount: 2
+      upgrade:
+      day:
+        - false
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+        -
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+        -
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+          -
+            ship_id: 162
+          -
+            ship_id: 499
+          -
+            ship_id: 500
+        -
+          -
+            ship_id: 162
+          -
+            ship_id: 499
+          -
+            ship_id: 500
+        - false
+  chinese_name: 一式战 隼III型甲‎‎
+---

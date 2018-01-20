@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 371
+  sort_no: 1451
+  name: 松風改
+  yomi: まつかぜ
+  stype: 2
+  ctype: 
+  cnum: 
+  backs: 5
+  after_lv: 
+  after_ship_id: 
+  get_mes: <br>
+  voice_f: 3
+  filename: bzigjflbyxbe
+  file_version: ["1", "1", "118"]
+  book_table_id: 
+  book_sinfo: 
+  stats:
+    taik: [23, 38]
+    souk: [10, 37]
+    houg: [7, 39]
+    raig: [14, 68]
+    tyku: [10, 50]
+    luck: [12, 84]
+    soku: 10
+    leng: 1
+    kaih: 
+    tais: 
+    slot_num: 3
+    max_eq: [0, 0, 0, 0, 0]
+    after_fuel: 
+    after_bull: 
+    fuel_max: 15
+    bull_max: 15
+    broken: [1, 1, 4, 0]
+    pow_up: [1, 1, 0, 0]
+    build_time: 18
+  graph:
+    boko_n: [84, 136]
+    boko_d: [148, 148]
+    kaisyu_n: [22, -8]
+    kaisyu_d: [68, 2]
+    kaizo_n: [40, 60]
+    kaizo_d: [116, 56]
+    map_n: [48, 112]
+    map_d: [140, 128]
+    ensyuf_n: [48, 120]
+    ensyuf_d: [124, 124]
+    ensyue_n: [40, 0]
+    battle_n: [64, 132]
+    battle_d: [144, 144]
+    wed_a: [172, -4]
+    wed_b: [92, 112]
+  wiki_id: "274a"
+  chinese_name: 松风改
+  can_drop: false
+  can_construct: false
+---

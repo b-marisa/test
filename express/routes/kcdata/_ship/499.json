@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 499
+  sort_no: 299
+  name: 神威改
+  yomi: かもい
+  stype: 16
+  ctype: 72
+  cnum: 1
+  backs: 5
+  after_lv: 60
+  after_ship_id: 500
+  get_mes: <br>
+  voice_f: 3
+  filename: tuzyehskgaup
+  file_version: ["7", "1", "118"]
+  book_table_id: [499, 808, 780]
+  book_sinfo: 給油艦として建造された「神威」です。<br>米国で生まれ、その後水上機母艦に改装されました。水上機収容用ハイン式マットは思ったより便利ではなかったけれど……。最終的に飛行艇母艦となり、輸送作戦に従事しました。戦いの前は、米艦と共に女性飛行家の捜索も頑張りました。
+  stats:
+    taik: [37, 48]
+    souk: [13, 29]
+    houg: [6, 22]
+    raig: [0, 0]
+    tyku: [12, 28]
+    luck: [19, 69]
+    soku: 5
+    leng: 2
+    kaih: 13
+    tais: 0
+    slot_num: 3
+    max_eq: [11, 8, 3, 0, 0]
+    after_fuel: 240
+    after_bull: 30
+    fuel_max: 30
+    bull_max: 15
+    broken: [3, 0, 10, 1]
+    pow_up: [0, 0, 1, 1]
+    build_time: 140
+  graph:
+    boko_n: [44, 130]
+    boko_d: [112, 110]
+    kaisyu_n: [22, -6]
+    kaisyu_d: [60, 2]
+    kaizo_n: [20, 58]
+    kaizo_d: [84, 34]
+    map_n: [24, 114]
+    map_d: [128, 102]
+    ensyuf_n: [32, 114]
+    ensyuf_d: [140, 94]
+    ensyue_n: [8, 0]
+    battle_n: [52, 130]
+    battle_d: [144, 106]
+    wed_a: [184, 6]
+    wed_b: [92, 107]
+  wiki_id: "299"
+  chinese_name: 神威改
+  can_drop: false
+  can_construct: false
+---

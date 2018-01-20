@@ -1,0 +1,15 @@
+---
+layout: json
+data:
+  id: 104
+  type: 3
+  no: 2
+  title: お詫び掛け軸
+  description: 何者かの手によるお詫び。<br>と書かれた謎の掛け軸。飾<br>ることによって、うずしお<br>を回避…するような素敵機<br>能はない…気持ちの逸品。
+  rarity: 4
+  price: 0
+  saleflg: 0
+  season: 0
+  filename: 
+  file_version: 
+---

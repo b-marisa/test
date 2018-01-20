@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 370
+  sort_no: 1450
+  name: 朝風改
+  yomi: あさかぜ
+  stype: 2
+  ctype: 
+  cnum: 
+  backs: 5
+  after_lv: 
+  after_ship_id: 
+  get_mes: <br>
+  voice_f: 3
+  filename: sfhznwdwstgj
+  file_version: ["2", "1", "117"]
+  book_table_id: 
+  book_sinfo: 
+  stats:
+    taik: [23, 38]
+    souk: [10, 37]
+    houg: [8, 42]
+    raig: [14, 69]
+    tyku: [10, 52]
+    luck: [14, 88]
+    soku: 10
+    leng: 1
+    kaih: 
+    tais: 
+    slot_num: 3
+    max_eq: [0, 0, 0, 0, 0]
+    after_fuel: 
+    after_bull: 
+    fuel_max: 15
+    bull_max: 15
+    broken: [1, 1, 4, 0]
+    pow_up: [1, 1, 0, 0]
+    build_time: 18
+  graph:
+    boko_n: [134, 144]
+    boko_d: [80, 156]
+    kaisyu_n: [22, -18]
+    kaisyu_d: [16, -4]
+    kaizo_n: [72, 72]
+    kaizo_d: [24, 60]
+    map_n: [88, 124]
+    map_d: [52, 124]
+    ensyuf_n: [88, 124]
+    ensyuf_d: [32, 120]
+    ensyue_n: [92, 0]
+    battle_n: [116, 140]
+    battle_d: [56, 136]
+    wed_a: [144, 0]
+    wed_b: [88, 132]
+  wiki_id: "272a"
+  chinese_name: 朝风改
+  can_drop: false
+  can_construct: false
+---

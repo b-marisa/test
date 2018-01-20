@@ -1,0 +1,110 @@
+---
+layout: json
+order: 105
+data:
+  id: 105
+  sort_no: 105
+  name: 試製41cm三連装砲
+  type: [1, 1, 3, 3, 0]
+  rare: 4
+  broken: [0, 14, 22, 0]
+  info: 呉海軍工廠砲熕部で試作された純国産戦艦主砲の三連装砲です。<br>16インチを僅かに上回る、この41cm砲は「大和」型の46cm砲が登場するまで世界最大の戦艦砲でした。これを搭載した長門型戦艦は、当時世界列強の「ビッグ７」水準を遥かに超えた高火力と高命中精度を実現します。
+  usebull: 0
+  cost: 8
+  distance: 6
+  stats:
+    taik: 0
+    souk: 0
+    houg: 22
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 5
+    tais: 0
+    atap: 0
+    houm: 2
+    raim: 0
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 3
+  improvement: 
+    -
+      consume:
+        resource: [40, 440, 620, 40]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [5, 7]
+            -
+              id: 4
+              amount: [4, 6]
+          -
+            -
+              id: 3
+              amount: [8, 10]
+            -
+              id: 4
+              amount: [5, 8]
+        slotitem:
+          -
+            id: 8
+            amount: 2
+          -
+            id: 8
+            amount: 3
+      upgrade:
+        id: 236
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [15, 30]
+            -
+              id: 4
+              amount: [12, 16]
+            -
+              id: 75
+              amount: 2
+          slotitem:
+            id: 9
+            amount: 2
+      day:
+        -
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+        -
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+        -
+          -
+            ship_id: 276
+        -
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+          -
+            ship_id: 276
+        -
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+        -
+          -
+            ship_id: 276
+        -
+          -
+            ship_id: 276
+  chinese_name: 试制41cm三连装炮
+---

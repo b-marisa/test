@@ -1,0 +1,149 @@
+---
+layout: json
+order: 40
+data:
+  id: 40
+  sort_no: 40
+  name: 25mm三連装機銃
+  type: [4, 6, 21, 15, 0]
+  rare: 1
+  broken: [0, 3, 1, 0]
+  info: 国産対空機銃兵装の強化バージョンです。<br>25mm高角機銃の三連装型ですが、一度に撃てるわけではなく、一門ずつ順番に撃って銃身の加熱を防ぎます。<br>従来の連装機銃や仮設の単装機銃を加え、この25mm三連装機銃が近接対空兵装の中核となりました。
+  usebull: 0
+  cost: 6
+  distance: 5
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 6
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 1
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [0, 30, 20, 10]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [1, 2]
+            -
+              id: 4
+              amount: [1, 1]
+          -
+            -
+              id: 3
+              amount: [1, 3]
+            -
+              id: 4
+              amount: [1, 2]
+        slotitem:
+          - 
+          -
+            id: 40
+            amount: 1
+      upgrade:
+      day:
+        - false
+        - false
+        -
+          -
+            ship_id: 68
+          -
+            ship_id: 271
+        -
+          -
+            ship_id: 68
+          -
+            ship_id: 271
+        -
+          -
+            ship_id: 68
+          -
+            ship_id: 271
+        - false
+        - false
+    -
+      consume:
+        resource: [0, 30, 20, 10]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [1, 2]
+            -
+              id: 4
+              amount: [1, 1]
+          -
+            -
+              id: 3
+              amount: [1, 3]
+            -
+              id: 4
+              amount: [1, 2]
+        slotitem:
+          - 
+          -
+            id: 40
+            amount: 1
+      upgrade:
+        id: 131
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [5, 9]
+            -
+              id: 4
+              amount: [3, 7]
+          slotitem:
+            id: 40
+            amount: 5
+      day:
+        -
+          -
+            ship_id: 428
+        -
+          -
+            ship_id: 141
+          -
+            ship_id: 428
+          -
+            ship_id: 487
+        -
+          -
+            ship_id: 141
+          -
+            ship_id: 428
+          -
+            ship_id: 487
+        -
+          -
+            ship_id: 141
+          -
+            ship_id: 428
+          -
+            ship_id: 418
+        -
+          -
+            ship_id: 428
+          -
+            ship_id: 418
+        - false
+        - false
+  chinese_name: 25mm三连装机铳
+---

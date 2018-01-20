@@ -1,0 +1,107 @@
+---
+layout: json
+order: 20
+data:
+  id: 20
+  sort_no: 20
+  name: 零式艦戦21型
+  type: [3, 5, 6, 6, 11]
+  rare: 0
+  broken: [1, 1, 0, 2]
+  info: 「ゼロ戦」の名で知られる名機「零式艦上戦闘機」の初期型です。7.7mm機銃2門と自慢の20mm機銃2門を装備。<br>優れた格闘戦能力と長大な航続距離で、その圧倒的な力を見せつけました。<br>やがて敵が強力な新型機になってくると、火力と速度、防弾性などの弱点が露呈していきます。
+  usebull: 0
+  cost: 4
+  distance: 7
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 5
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [100, 80, 0, 250]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [2, 4]
+            -
+              id: 4
+              amount: [2, 3]
+          -
+            -
+              id: 3
+              amount: [3, 5]
+            -
+              id: 4
+              amount: [2, 4]
+        slotitem:
+          -
+            id: 20
+            amount: 1
+          -
+            id: 20
+            amount: 2
+      upgrade:
+        id: 181
+        level: 3
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [4, 7]
+            -
+              id: 4
+              amount: [3, 5]
+          slotitem:
+            id: 37
+            amount: 2
+      day:
+        -
+          -
+            ship_id: 84
+          -
+            ship_id: 278
+        -
+          -
+            ship_id: 84
+          -
+            ship_id: 278
+        -
+          -
+            ship_id: 84
+          -
+            ship_id: 278
+        - false
+        -
+          -
+            ship_id: 83
+          -
+            ship_id: 277
+        -
+          -
+            ship_id: 83
+          -
+            ship_id: 277
+        -
+          -
+            ship_id: 83
+          -
+            ship_id: 277
+  chinese_name: 零式舰战21型
+---

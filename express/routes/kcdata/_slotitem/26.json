@@ -1,0 +1,106 @@
+---
+layout: json
+order: 26
+data:
+  id: 26
+  sort_no: 26
+  name: 瑞雲
+  type: [5, 43, 11, 10, 2]
+  rare: 1
+  broken: [2, 3, 0, 5]
+  info: 水上偵察機を発展させ、急降下爆撃可能な水偵として開発された「瑞雲」。<br>空戦フラップまで装備した高性能な多用途機で、水上機母艦や、航空巡洋艦などからの運用も可能です。<br>「伊勢」型を改装した「航空戦艦」で集中運用、水上打撃機動部隊を編制するのも楽しいですよ！
+  usebull: 0
+  cost: 6
+  distance: 5
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 4
+    tyku: 2
+    tais: 4
+    atap: 0
+    houm: 1
+    raim: 13
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 6
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [160, 160, 0, 360]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [5, 7]
+            -
+              id: 4
+              amount: [3, 4]
+          -
+            -
+              id: 3
+              amount: [6, 9]
+            -
+              id: 4
+              amount: [5, 7]
+        slotitem:
+          -
+            id: 26
+            amount: 1
+          -
+            id: 26
+            amount: 1
+      upgrade:
+        id: 79
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [16, 24]
+            -
+              id: 4
+              amount: [7, 10]
+            -
+              id: 70
+              amount: 1
+          slotitem:
+            id: 26
+            amount: 2
+      day:
+        -
+          -
+            ship_id: 82
+          -
+            ship_id: 88
+        -
+          -
+            ship_id: 73
+        -
+          -
+            ship_id: 73
+        -
+          -
+            ship_id: 73
+        -
+          -
+            ship_id: 73
+        -
+          -
+            ship_id: 82
+          -
+            ship_id: 88
+        -
+          -
+            ship_id: 82
+          -
+            ship_id: 88
+  chinese_name: 瑞云
+---

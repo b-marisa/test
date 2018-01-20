@@ -1,0 +1,60 @@
+---
+layout: json
+data:
+  id: 815
+  sort_no: 0
+  name: 桃節句山風
+  yomi: やまかぜ
+  stype: 2
+  ctype: 
+  cnum: 
+  backs: 
+  after_lv: 
+  after_ship_id: 
+  get_mes: 
+  voice_f: 
+  filename: fgpmngsqqmqp
+  file_version: ["1", "1", "1"]
+  book_table_id: 
+  book_sinfo: 
+  stats:
+    taik: 
+    souk: 
+    houg: 
+    raig: 
+    tyku: 
+    luck: 
+    soku: 10
+    leng: 
+    kaih: 
+    tais: 
+    slot_num: 2
+    max_eq: 
+    after_fuel: 
+    after_bull: 
+    fuel_max: 
+    bull_max: 
+    broken: 
+    pow_up: 
+    build_time: 
+  graph:
+    boko_n: [116, 144]
+    boko_d: [60, 148]
+    kaisyu_n: [8, -18]
+    kaisyu_d: [24, 0]
+    kaizo_n: [64, 72]
+    kaizo_d: [36, 64]
+    map_n: [88, 120]
+    map_d: [72, 128]
+    ensyuf_n: [80, 128]
+    ensyuf_d: [64, 128]
+    ensyue_n: [64, 0]
+    battle_n: [88, 124]
+    battle_d: [64, 136]
+    wed_a: [160, 12]
+    wed_b: [92, 116]
+  wiki_id: 
+  chinese_name: 
+  can_drop: false
+  can_construct: false
+---

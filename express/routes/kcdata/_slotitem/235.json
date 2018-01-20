@@ -1,0 +1,89 @@
+---
+layout: json
+order: 235
+data:
+  id: 235
+  sort_no: 235
+  name: 15.5cm三連装砲改
+  type: [1, 1, 2, 2, 0]
+  rare: 3
+  broken: [0, 3, 6, 1]
+  info: 条約下で保有制限のあった重巡を火力を増強した強力な軽巡で補うために開発された三連装主砲です。射程・発射速度・運用性等のバランスに優れ、対空戦もある程度可能な傑作砲となりました。後に有名な「大和」型戦艦の副砲としても採用されています。本砲は、大型軽巡などでの運用で熟成・改修を重ねた同改良主砲です。
+  usebull: 0
+  cost: 
+  distance: 
+  stats:
+    taik: 0
+    souk: 1
+    houg: 7
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 5
+    tais: 0
+    atap: 0
+    houm: 3
+    raim: 0
+    houk: 1
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 2
+  improvement: 
+    -
+      consume:
+        resource: [15, 120, 150, 30]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [6, 7]
+            -
+              id: 4
+              amount: [4, 5]
+          -
+            -
+              id: 3
+              amount: [8, 9]
+            -
+              id: 4
+              amount: [5, 7]
+        slotitem:
+          -
+            id: 5
+            amount: 2
+          -
+            id: 12
+            amount: 2
+      upgrade:
+        id: 234
+        level: 7
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [9, 10]
+            -
+              id: 4
+              amount: [2, 3]
+          slotitem:
+            id: 12
+            amount: 1
+      day:
+        -
+          -
+            ship_id: 321
+        - false
+        - false
+        - false
+        - false
+        -
+          -
+            ship_id: 321
+        -
+          -
+            ship_id: 321
+  chinese_name: 15.5cm三连装炮改
+---

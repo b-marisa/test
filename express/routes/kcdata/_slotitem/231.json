@@ -1,0 +1,36 @@
+---
+layout: json
+order: 231
+data:
+  id: 231
+  sort_no: 231
+  name: 30.5cm三連装砲
+  type: [1, 1, 3, 3, 0]
+  rare: 2
+  broken: [0, 8, 12, 0]
+  info: 北の国の戦艦主砲です。<br>戦艦の主砲としては、超弩級戦艦の時代にはスケール的に時代遅れの感もありましたが、三連装主砲として当時新鋭の弩級戦艦に装備されました。
+  usebull: 0
+  cost: 
+  distance: 
+  stats:
+    taik: 0
+    souk: 1
+    houg: 16
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 0
+    tais: 0
+    atap: 0
+    houm: 1
+    raim: 0
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 3
+  improvement: 
+  chinese_name: 30.5cm三连装炮
+---

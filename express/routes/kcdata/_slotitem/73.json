@@ -1,0 +1,137 @@
+---
+layout: json
+order: 73
+data:
+  id: 73
+  sort_no: 73
+  name: 増設バルジ(大型艦)
+  type: [6, 17, 28, 23, 0]
+  rare: 2
+  broken: [0, 0, 30, 0]
+  info: 艦艇の防御力を強化する増加装甲の一種です。<br>戦艦等の大型艦艇の船体側面への増設が可能です。<br>(戦艦・巡洋戦艦・航空戦艦・正規空母(含む装甲空母)用)
+  usebull: 0
+  cost: 6
+  distance: 4
+  stats:
+    taik: 0
+    souk: 9
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 0
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: -3
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [80, 0, 880, 0]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [8, 10]
+            -
+              id: 4
+              amount: [4, 5]
+          -
+            -
+              id: 3
+              amount: [20, 30]
+            -
+              id: 4
+              amount: [6, 9]
+        slotitem:
+          -
+            id: 72
+            amount: 2
+          -
+            id: 73
+            amount: 1
+      upgrade:
+        id: 204
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [32, 48]
+            -
+              id: 4
+              amount: [8, 12]
+          slotitem:
+            id: 73
+            amount: 2
+      day:
+        - false
+        - false
+        - false
+        -
+          -
+            ship_id: 81
+          -
+            ship_id: 276
+          -
+            ship_id: 131
+          -
+            ship_id: 136
+        -
+          -
+            ship_id: 80
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+          -
+            ship_id: 143
+          -
+            ship_id: 148
+          -
+            ship_id: 81
+          -
+            ship_id: 276
+          -
+            ship_id: 131
+          -
+            ship_id: 136
+        -
+          -
+            ship_id: 80
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+          -
+            ship_id: 143
+          -
+            ship_id: 148
+          -
+            ship_id: 81
+          -
+            ship_id: 276
+          -
+            ship_id: 131
+          -
+            ship_id: 136
+        -
+          -
+            ship_id: 80
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+          -
+            ship_id: 143
+          -
+            ship_id: 148
+  chinese_name: 增设装甲(大型舰)
+---

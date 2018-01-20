@@ -1,0 +1,116 @@
+---
+layout: json
+order: 8
+data:
+  id: 8
+  sort_no: 8
+  name: 41cm連装砲
+  type: [1, 1, 3, 3, 0]
+  rare: 1
+  broken: [0, 12, 20, 0]
+  info: 呉海軍工廠砲熕部で開発された初の純国産戦艦主砲です。<br>16インチ（40.6cm）を僅かに上回る、この41cm砲は「大和」型の46cm砲が登場するまで世界最大の戦艦砲でした。<br>これを搭載した「長門」「陸奥」は、当時世界列強の「ビッグ７」として、多くのファンに称えられていました。
+  usebull: 0
+  cost: 
+  distance: 
+  stats:
+    taik: 0
+    souk: 0
+    houg: 20
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 4
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 3
+  improvement: 
+    -
+      consume:
+        resource: [30, 350, 480, 0]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [3, 4]
+            -
+              id: 4
+              amount: [2, 3]
+          -
+            -
+              id: 3
+              amount: [4, 7]
+            -
+              id: 4
+              amount: [3, 6]
+        slotitem:
+          -
+            id: 8
+            amount: 1
+          -
+            id: 8
+            amount: 2
+      upgrade:
+        id: 105
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [12, 20]
+            -
+              id: 4
+              amount: [10, 15]
+            -
+              id: 75
+              amount: 2
+          slotitem:
+            id: 9
+            amount: 2
+      day:
+        -
+          -
+            ship_id: 81
+          -
+            ship_id: 276
+        -
+          -
+            ship_id: 81
+          -
+            ship_id: 276
+        -
+          -
+            ship_id: 80
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+        - false
+        -
+          -
+            ship_id: 81
+          -
+            ship_id: 276
+        -
+          -
+            ship_id: 80
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+        -
+          -
+            ship_id: 80
+          -
+            ship_id: 275
+          -
+            ship_id: 541
+  chinese_name: 41cm连装炮
+---

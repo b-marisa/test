@@ -1,0 +1,99 @@
+---
+layout: json
+order: 90
+data:
+  id: 90
+  sort_no: 90
+  name: 20.3cm(2号)連装砲
+  type: [1, 1, 2, 2, 0]
+  rare: 1
+  broken: [0, 3, 4, 0]
+  info: 20.3cm連装砲のマイナーバージョンアップ版、それが同2号連装砲です。<br>元々優秀な重巡洋艦用主砲を改良して、主に妙高型などに搭載されました。初期主砲搭載の他の重巡達も、近代化改装時に順次本砲に換装されていきました。
+  usebull: 0
+  cost: 6
+  distance: 5
+  stats:
+    taik: 0
+    souk: 0
+    houg: 9
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 3
+    tais: 0
+    atap: 0
+    houm: 1
+    raim: 0
+    houk: 0
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 2
+  improvement: 
+    -
+      consume:
+        resource: [10, 100, 130, 0]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [2, 3]
+            -
+              id: 4
+              amount: [2, 3]
+          -
+            -
+              id: 3
+              amount: [2, 4]
+            -
+              id: 4
+              amount: [2, 4]
+        slotitem:
+          - 
+          -
+            id: 90
+            amount: 1
+      upgrade:
+        id: 50
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [4, 8]
+            -
+              id: 4
+              amount: [4, 11]
+          slotitem:
+            id: 90
+            amount: 1
+      day:
+        -
+          -
+            ship_id: 62
+          -
+            ship_id: 265
+          -
+            ship_id: 319
+        -
+          -
+            ship_id: 62
+          -
+            ship_id: 265
+          -
+            ship_id: 319
+        -
+          -
+            ship_id: 62
+          -
+            ship_id: 265
+          -
+            ship_id: 319
+        - false
+        - false
+        - false
+        - false
+  chinese_name: 20.3cm(2号)连装炮
+---

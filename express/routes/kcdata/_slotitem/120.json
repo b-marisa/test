@@ -1,0 +1,137 @@
+---
+layout: json
+order: 120
+data:
+  id: 120
+  sort_no: 120
+  name: 91式高射装置
+  type: [14, 24, 36, 30, 0]
+  rare: 1
+  broken: [0, 1, 0, 1]
+  info: 高角砲の対空射撃用の高射装置です。<br>高射機と高射射撃盤を組み合わせ、高角砲の有効な対空射撃をサポートします。やや、旧式ではありますが、主力の戦艦や巡洋艦などに搭載されました。
+  usebull: 0
+  cost: 9
+  distance: 4
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 2
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 1
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [0, 0, 60, 40]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [3, 4]
+            -
+              id: 4
+              amount: [1, 2]
+          -
+            -
+              id: 3
+              amount: [3, 5]
+            -
+              id: 4
+              amount: [2, 4]
+        slotitem:
+          - 
+          -
+            id: 10
+            amount: 1
+      upgrade:
+        id: 121
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [4, 9]
+            -
+              id: 4
+              amount: [4, 7]
+          slotitem:
+            id: 3
+            amount: 2
+      day:
+        -
+          -
+            ship_id: 68
+          -
+            ship_id: 271
+          -
+            ship_id: 428
+          -
+            ship_id: 421
+          -
+            ship_id: 330
+          -
+            ship_id: 422
+          -
+            ship_id: 346
+        -
+          -
+            ship_id: 68
+          -
+            ship_id: 271
+          -
+            ship_id: 428
+          -
+            ship_id: 421
+          -
+            ship_id: 330
+        - false
+        - false
+        -
+          -
+            ship_id: 422
+          -
+            ship_id: 346
+        -
+          -
+            ship_id: 68
+          -
+            ship_id: 271
+          -
+            ship_id: 428
+          -
+            ship_id: 421
+          -
+            ship_id: 330
+          -
+            ship_id: 422
+          -
+            ship_id: 346
+        -
+          -
+            ship_id: 68
+          -
+            ship_id: 271
+          -
+            ship_id: 428
+          -
+            ship_id: 421
+          -
+            ship_id: 330
+          -
+            ship_id: 422
+          -
+            ship_id: 346
+  chinese_name: 91式高射装置
+---

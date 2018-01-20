@@ -1,0 +1,15 @@
+---
+layout: json
+data:
+  id: 33
+  type: 0
+  no: 32
+  title: コンクリート床
+  description: 都会派の貴方はこれでキマ<br>リ！洗練されたアーバンな<br>執務室を演出する硬派なコ<br>ンクリート製の床！冬場は<br>少し寒いけど気にしない！
+  rarity: 2
+  price: 200
+  saleflg: 1
+  season: 0
+  filename: 
+  file_version: 
+---

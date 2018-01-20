@@ -1,0 +1,152 @@
+---
+layout: json
+order: 221
+data:
+  id: 221
+  sort_no: 221
+  name: 一式戦 隼II型
+  type: [22, 39, 48, 44, 18]
+  rare: 2
+  broken: [1, 1, 0, 3]
+  info: 最も量産された陸軍主力戦闘機、一式戦「隼」、<br>その改良二型です。<br>零式艦戦とよく似た機体ですが、防弾性にも留意したその機体はやや旧式ながら各戦線で戦いの最後まで奮戦を続けました。
+  usebull: 0
+  cost: 4
+  distance: 6
+  stats:
+    taik: 0
+    souk: 0
+    houg: 0
+    raig: 0
+    soku: 0
+    baku: 0
+    tyku: 6
+    tais: 0
+    atap: 0
+    houm: 0
+    raim: 0
+    houk: 2
+    raik: 0
+    bakk: 0
+    saku: 0
+    sakb: 0
+    luck: 0
+    leng: 0
+  improvement: 
+    -
+      consume:
+        resource: [90, 120, 10, 270]
+        useitem:
+          -
+            -
+              id: 3
+              amount: [3, 4]
+            -
+              id: 4
+              amount: [2, 3]
+          -
+            -
+              id: 3
+              amount: [5, 6]
+            -
+              id: 4
+              amount: [3, 5]
+        slotitem:
+          -
+            id: 19
+            amount: 1
+          -
+            id: 20
+            amount: 2
+      upgrade:
+        id: 222
+        level: 0
+        consume:
+          useitem:
+            -
+              id: 3
+              amount: [10, 15]
+            -
+              id: 4
+              amount: [6, 9]
+            -
+              id: 77
+              amount: 1
+          slotitem:
+            id: 38
+            amount: 3
+      day:
+        - false
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+          -
+            ship_id: 162
+          -
+            ship_id: 499
+          -
+            ship_id: 500
+        -
+          -
+            ship_id: 161
+          -
+            ship_id: 166
+          -
+            ship_id: 521
+          -
+            ship_id: 526
+          -
+            ship_id: 380
+          -
+            ship_id: 529
+          -
+            ship_id: 162
+          -
+            ship_id: 499
+          -
+            ship_id: 500
+        -
+          -
+            ship_id: 162
+          -
+            ship_id: 499
+          -
+            ship_id: 500
+        - false
+  chinese_name: 一式战 隼II型‎‎
+---

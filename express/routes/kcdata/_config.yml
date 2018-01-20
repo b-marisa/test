@@ -1,0 +1,17 @@
+collections:
+  quest:
+    output: true
+  ship:
+    output: true
+  slotitem:
+    output: true
+  shiptype:
+    output: true
+  useitem:
+    output: true
+  furniture:
+    output: true
+  shipclass:
+    output: true
+  equiptype:
+    output: true
