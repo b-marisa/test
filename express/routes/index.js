@@ -15,9 +15,12 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/requestData/game_id', function(req, res, next) {
+  //跨域
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
+  //因https导致的错误问题
+  res.header("Content-Security-Policy: upgrade-insecure-requests");
   // res.render('index', { title: 'Express' });
   var value = xss(req.body.value);
   // connection.connect();
@@ -51,10 +54,13 @@ router.post('/requestData/game_id', function(req, res, next) {
 });
 
 router.post('/requestData/wiki_id', function(req, res, next) {
+  //跨域
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
-  
+  //因https导致的错误问题
+  res.header("Content-Security-Policy: upgrade-insecure-requests");
+
   var value = xss(req.body.value);
 
   var re;
