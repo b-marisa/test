@@ -15,6 +15,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/requestData/game_id', function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
+  res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
   // res.render('index', { title: 'Express' });
   var value = xss(req.body.value);
   // connection.connect();
@@ -48,6 +51,10 @@ router.post('/requestData/game_id', function(req, res, next) {
 });
 
 router.post('/requestData/wiki_id', function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
+  res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
+  
   var value = xss(req.body.value);
 
   var re;
