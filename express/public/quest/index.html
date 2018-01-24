@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务一览</title>
+	<link href="../stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+<body style="width: 100%;">
+	<div class="col-sm-12" style="text-align: center;padding:50px;">
+		<h1>任务列表</h1>
+		<div style="float: left;margin: 10px">
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#AddModal">添加</button>
+		</div>
+		<div style="float: right;margin: 10px">
+			<input type="text" placeholder="game_id" id="game_id_search">
+			<button class="btn btn-success btn-sm" type="button" onclick="SearchByGameId()">查找</button>
+		</div>
+		<table class="table table-bordered">
+			<thead>
+		        <tr>
+					<th>game_id</th>
+					<th>wiki_id</th>
+					<th>name</th>
+					<th>detail</th>
+					<th>reward</th>
+					<th>operation</th>
+		        </tr>
+		    </thead>
+		    <tbody id="container"></tbody>
+		</table>
+	</div>
+
+	<!--Add Modal -->
+	<div class="modal fade" id="AddModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="AddModalLabel">添加任务</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form id="Add">
+	        	<div class="form-group">
+					<label>game_id</label>
+					<input type="number" name="game_id" class="form-control game_id" placeholder="game_id">
+				</div>
+				<div class="form-group">
+					<label>wiki_id</label>
+					<input type="text" name="wiki_id" class="form-control wiki_id" placeholder="wiki_id">
+				</div>
+				<div class="form-group">
+					<label>任务标题</label>
+					<input type="text" name="name" class="form-control name" placeholder="任务标题">
+				</div>
+				<div class="form-group">
+					<label>任务详细</label>
+					<input type="text" name="detail" class="form-control detail" placeholder="任务详细">
+				</div>
+				<div class="form-group">
+					<label class="col-sm-12">奖励</label>
+					<input type="number" name="reward_fuel" class="form-control reward_fuel" placeholder="油" style="display: inline-block;width: 22%;">
+					<input type="number" name="reward_ammo" class="form-control reward_ammo" placeholder="弹" style="display: inline-block;width: 22%;margin-left: 3%;">
+					<input type="number" name="reward_steel" class="form-control reward_steel" placeholder="钢" style="display: inline-block;width: 22%;margin-left: 3%;">
+					<input type="number" name="reward_bauxite" class="form-control reward_bauxite" placeholder="铝" style="display: inline-block;width: 22%;margin-left: 3%;">
+				</div>
+	        </form>
+	      </div>
+	      <div class="modal-footer" style="clear: both;">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+	        <button type="button" class="btn btn-primary" onclick="Add()">保存</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!--Modify Modal -->
+	<div class="modal fade" id="ModifyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="ModifyModalLabel">修改任务</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form id="Modify">
+	        	<div class="form-group">
+					<label>game_id</label>
+					<input type="number" name="game_id" class="form-control game_id" placeholder="game_id">
+				</div>
+				<div class="form-group">
+					<label>wiki_id</label>
+					<input type="text" name="wiki_id" class="form-control wiki_id" placeholder="wiki_id">
+				</div>
+				<div class="form-group">
+					<label>任务标题</label>
+					<input type="text" name="name" class="form-control name" placeholder="任务标题">
+				</div>
+				<div class="form-group">
+					<label>任务详细</label>
+					<input type="text" name="detail" class="form-control detail" placeholder="任务详细">
+				</div>
+				<div class="form-group">
+					<label class="col-sm-12">奖励</label>
+					<input type="number" name="reward_fuel" class="form-control reward_fuel" placeholder="油" style="display: inline-block;width: 22%;">
+					<input type="number" name="reward_ammo" class="form-control reward_ammo" placeholder="弹" style="display: inline-block;width: 22%;margin-left: 3%;">
+					<input type="number" name="reward_steel" class="form-control reward_steel" placeholder="钢" style="display: inline-block;width: 22%;margin-left: 3%;">
+					<input type="number" name="reward_bauxite" class="form-control reward_bauxite" placeholder="铝" style="display: inline-block;width: 22%;margin-left: 3%;">
+				</div>
+				<input type="hidden" name="id" style="display: none;">
+	        </form>
+	      </div>
+	      <div class="modal-footer" style="clear: both;">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+	        <button type="button" class="btn btn-primary" onclick="Modify()">保存</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<script type="text/html" id="template">
+		<tr>
+			<td class="game_id"></td>
+			<td class="wiki_id"></td>
+			<td class="name"></td>
+			<td class="detail"></td>
+			<td class="reward"></td>
+			<td class="operation">
+				<button class="btn btn-default btn-sm" type="button" data-toggle="modal" data-target="#ModifyModal" onclick="OpenModify(this)">修改</button>
+				<button class="btn btn-default btn-sm" type="button" onclick="Delete(this)" style="margin: 10px;">删除</button>
+			</td>
+		</tr>
+	</script>
+
+	<script type="text/javascript" src="../javascripts/jquery.js"></script>
+	<script src="../javascripts/bootstrap.js"></script>
+	<script type="text/javascript">
+
+		function showAll(){
+			$.post("./GetAll",function(msg){
+				var list = $("#container");
+				var template = $("#template").html();
+				list.html("");
+				for(var i in msg){
+					var obj = $("<tr></tr>");
+					obj.attr("id",msg[i].id)
+					obj.append($(template).find(".game_id").html(msg[i].game_id))
+					obj.append($(template).find(".wiki_id").html(msg[i].wiki_id))
+					obj.append($(template).find(".name").html(msg[i].name))
+					obj.append($(template).find(".detail").html(msg[i].detail))
+					obj.append($(template).find(".reward").html(msg[i].reward_fuel+","+msg[i].reward_ammo+","+msg[i].reward_steel+","+msg[i].reward_bauxite))
+					obj.append($(template).find(".operation")[0])
+					list.append(obj[0]);
+				}
+			})
+		};
+		showAll();
+
+		function SearchByGameId(){
+			var game_id = $("#game_id_search").val();
+
+			if(!game_id){showAll();return;}
+
+			$.post("./Find",{game_id:game_id},function(msg){
+				var list = $("#container");
+				var template = $("#template").html();
+				list.html("");
+				for(var i in msg){
+					var obj = $("<tr></tr>");
+					obj.attr("id",msg[i].id)
+					obj.append($(template).find(".game_id").html(msg[i].game_id))
+					obj.append($(template).find(".wiki_id").html(msg[i].wiki_id))
+					obj.append($(template).find(".name").html(msg[i].name))
+					obj.append($(template).find(".detail").html(msg[i].detail))
+					obj.append($(template).find(".reward").html(msg[i].reward_fuel+","+msg[i].reward_ammo+","+msg[i].reward_steel+","+msg[i].reward_bauxite))
+					obj.append($(template).find(".operation")[0])
+					list.append(obj[0]);
+				}
+			})
+
+		}
+
+		function Add(){
+			var form = $("#Add").serialize();
+
+			$.post("./Add",form,function(msg){
+				if(msg.success){
+					alert("添加成功");
+					location.reload();
+				}else{
+					alert("添加失败")
+				}
+			})
+		}
+
+		function OpenModify(item){
+			var tr = $(item).parents("tr"),
+				reward = tr.find(".reward").html().split(",");
+
+			var id = tr.attr("id"),
+				game_id = tr.find(".game_id").html(),
+				wiki_id = tr.find(".wiki_id").html(),
+				name = tr.find(".name").html(),
+				detail = tr.find(".detail").html(),
+				reward_fuel = reward[0],
+				reward_ammo = reward[1],
+				reward_steel = reward[2],
+				reward_bauxite = reward[3];
+
+			$("#ModifyModal input[name='id']").val(id);
+			$("#ModifyModal input[name='game_id']").val(game_id);
+			$("#ModifyModal input[name='wiki_id']").val(wiki_id);
+			$("#ModifyModal input[name='name']").val(name);
+			$("#ModifyModal input[name='detail']").val(detail);
+			$("#ModifyModal input[name='reward_fuel']").val(reward_fuel);
+			$("#ModifyModal input[name='reward_ammo']").val(reward_ammo);
+			$("#ModifyModal input[name='reward_steel']").val(reward_steel);
+			$("#ModifyModal input[name='reward_bauxite']").val(reward_bauxite);
+		}
+
+		function Modify(){
+			var form = $("#Modify").serialize();
+
+			$.post("./Modify",form,function(msg){
+				if(msg.success){
+					alert("修改成功");
+					location.reload();
+				}else{
+					alert("修改失败")
+				}
+			})
+
+		}
+
+		function Delete(item){
+			var id = $(item).parents("tr").attr("id");
+			var game_id = $(item).parents("tr").find(".game_id").html();
+			if(confirm("确定删除game_id为"+game_id+"的数据")){
+				$.post("./Delete",{id:id},function(msg){
+					if(msg.success){
+						alert("删除成功");
+						location.reload();
+					}else{
+						alert("删除失败");
+					}
+				})
+			}
+		}
+	</script>
+</body>
+</html>

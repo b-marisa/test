@@ -12,6 +12,9 @@ var data = require("./kcdata/quest/poi.json");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
 });
 
 router.post('/requestData/game_id', function(req, res, next) {
@@ -19,8 +22,6 @@ router.post('/requestData/game_id', function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
-  //因https导致的错误问题
-  res.header("Content-Security-Policy: upgrade-insecure-requests");
   // res.render('index', { title: 'Express' });
   var value = xss(req.body.value);
   // connection.connect();

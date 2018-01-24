@@ -2,39 +2,40 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>舰娘百科数据库管理系统DEMO</title>
 	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+	<link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet">
 </head>
 <body style="width: 100%;">
 	<div class="container" style="width: 100%;text-align: center;">
-		<div style="position: absolute;left: 0;right: 0;margin: auto;margin-top:150px;height: 300px;background:#eee;width: 500px;">
-			<h1>接口测试</h1>
-			<input type="text" id="game_id_value" placeholder="请输入game_id">
-			<button id="game_id">go</button>
-			<input type="text" id="wiki_id_value" placeholder="请输入wiki_id">
-			<button id="wiki_id">go</button>
-			<div id="content" style="background: #fff;width: 300px;height: 150px;position: absolute;left: 0;right: 0;margin: auto;margin-top:10px;font-size: 10px;text-align: left;"></div>
+		<div style="position: absolute;left: 0;right: 0;margin: auto;margin-top:150px;height: 400px;background:#eee;width: 600px;">
+			<h1>数据测试DEMO</h1>
+			<div class="form-group">
+				<button class="btn btn-primary" type="button" onclick="javascripts:window.open('/quest')">任务数据</button>
+				<button class="btn btn-default" type="button"" disabled="">舰娘数据</button>
+				<button class="btn btn-default" type="button"" disabled="">装备数据</button>
+				<button class="btn btn-default" type="button"" disabled="">深海数据</button>
+			</div>
 		</div>
 		
 	</div>
 </body>
-<script src="/javascripts/jquery.js"></script>
 <script>
-	$("#game_id").on("click",function(){
-		$("#content").html("");
-		var value = $("#game_id_value").val();
-		$.post("/requestData/game_id",{value:value},function(msg){
-			$("#content").html(JSON.stringify(msg));
-		})
-	});
+	// $("#game_id").on("click",function(){
+	// 	$("#content").html("");
+	// 	var value = $("#game_id_value").val();
+	// 	$.post("/requestData/game_id",{value:value},function(msg){
+	// 		$("#content").html(JSON.stringify(msg));
+	// 	})
+	// });
 
-	$("#wiki_id").on("click",function(){
-		$("#content").html("");
-		var value = $("#wiki_id_value").val();
-		$.post("/requestData/wiki_id",{value:value},function(msg){
-			$("#content").html(JSON.stringify(msg));
-		})
-	})
+	// $("#wiki_id").on("click",function(){
+	// 	$("#content").html("");
+	// 	var value = $("#wiki_id_value").val();
+	// 	$.post("/requestData/wiki_id",{value:value},function(msg){
+	// 		$("#content").html(JSON.stringify(msg));
+	// 	})
+	// })
 </script>
 
 </html>
